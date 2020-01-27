@@ -106,28 +106,3 @@ a{
 #container > div#product-description > a.java{
   color: #ff2a8e;
 }
-
-#container > div#product-languages{
-  text-align: center;
-  margin-top: 40px;
-}
-
-#container > div#product-languages > div{
-  display: inline-block;
-  text-align: center;
-  padding: 15px 50px;
-  font-size: 18px;
-}
-
-#container > div#product-languages > div > a > i{
-  margin-right: 5px;
-  font-size: 20px;
-}
-
-#container > div#product-languages > div > a > i.devicon-dot-net-plain{
-  color: #0a9cfe;
-}
-
-#container > div#product-languages > div > a > i.devicon-java-plain{
-  color: #fe0a30;
-}
