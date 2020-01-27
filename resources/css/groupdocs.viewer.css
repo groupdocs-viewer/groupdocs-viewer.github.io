@@ -57,11 +57,11 @@ a{
 
 #container{
   width: 386px;
-  height: 140px;
+  height: 348px;
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-top: -70px;
+  margin-top: -200px;
   margin-left: -193px;
 }
 
@@ -81,4 +81,53 @@ a{
 
 #container > h4{
   text-align: right;
+}
+
+#container > div#product-description{
+  width: 700px;
+  font-size: 13px;
+  margin-top: 70px;
+  margin-left: -157px;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+#container > div#product-description > div{
+  width: 200px;
+  border: 1px solid;
+  padding: 10px;
+  margin: 20px auto;
+}
+
+#container > div#product-description > a.dot-net{
+  color: #0a9cfe;
+}
+
+#container > div#product-description > a.java{
+  color: #ff2a8e;
+}
+
+#container > div#product-languages{
+  text-align: center;
+  margin-top: 40px;
+}
+
+#container > div#product-languages > div{
+  display: inline-block;
+  text-align: center;
+  padding: 15px 50px;
+  font-size: 18px;
+}
+
+#container > div#product-languages > div > a > i{
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+#container > div#product-languages > div > a > i.devicon-dot-net-plain{
+  color: #0a9cfe;
+}
+
+#container > div#product-languages > div > a > i.devicon-java-plain{
+  color: #fe0a30;
 }
